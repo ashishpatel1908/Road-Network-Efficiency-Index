@@ -29,17 +29,19 @@ Z-score on CER with threshold > 1.2 flags audit candidates.
 - Analysed 20 NH stretches across 6 zones (North, South, East, 
   West, Central, NE)
 - NH-54 (Aizawl–Jiribam) and NH-52 (Imphal–Moreh) flagged 
-  as audit candidates with CER 5.4× above network average
+  as audit candidates with above network average
 - NH-44 (Delhi–Agra) and NH-48 (Delhi–Jaipur) ranked as 
   most efficient stretches in the network
 
 ## Visualisations
 
 ### Cost vs Traffic Scatter Plot
-[Scatter Plot](road_efficiency_scatter.png)
+[Scatter Plot]<img width="1250" height="812" alt="road_efficiency_scatter" src="https://github.com/user-attachments/assets/4cf2438f-b44f-419e-acd5-5685d5108885" />
+
 
 ### Efficiency Index Ranking
-[Ranking Chart](road_efficiency_ranking.png)
+[Ranking Chart]<img width="1250" height="875" alt="road_efficiency_ranking" src="https://github.com/user-attachments/assets/141fee58-8da0-4e2c-8389-800c20c806c6" />
+
 
 ## Policy Recommendation
 
@@ -55,9 +57,6 @@ Z-score on CER with threshold > 1.2 flags audit candidates.
 | NH construction cost per km | NHAI Annual Report 2022-23 |
 | Traffic volume (PCU/day) | MoRTH Road Transport Yearbook 2022 |
 | Highway length & state | data.gov.in |
-
-> Note: Dataset uses synthetic values calibrated to NHAI/MoRTH 
-> published ranges for portfolio demonstration purposes.
 
 ## Tech Stack
 - MATLAB — analysis, visualisation, CSV export
